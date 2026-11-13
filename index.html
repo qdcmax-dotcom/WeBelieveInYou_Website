@@ -190,7 +190,8 @@ section{padding:84px 0}
 .signup{background:var(--sand);padding:70px 0}
 .signup .inner{max-width:900px;margin:0 auto;text-align:center}
 .su-card{background:#fff;border:1px solid rgba(62,24,118,.15);border-radius:16px;padding:46px 40px;max-width:720px;margin:0 auto;text-align:center}
-.su-card .lead{font-family:'Fraunces',serif;font-size:clamp(1.14rem,2.3vw,1.45rem);font-weight:500;line-height:1.45;color:var(--ink);max-width:42ch;margin:18px auto 30px}
+.su-card .su-form{margin-top:28px}
+.su-card .lead{font-family:'Fraunces',serif;font-size:clamp(1.14rem,2.3vw,1.45rem);font-weight:500;line-height:1.45;color:var(--ink);max-width:42ch;margin:30px auto 0}
 @media (max-width:560px){.su-card{padding:34px 22px}}
 .signup h2{font-size:clamp(1.9rem,4.2vw,2.5rem);color:var(--purple)}
 .signup p.sub{font-size:1.12rem;line-height:1.65;color:rgba(21,8,40,.75);margin:14px auto 26px;max-width:46ch}
@@ -350,7 +351,6 @@ footer a{color:rgba(246,242,235,.82);text-decoration:none}
   <div class="wrap inner">
     <div class="su-card rv">
     <h2>Stay in touch</h2>
-    <p class="lead">To learn more about our program, schedule a tour, make a referral, or discuss partnership opportunities, please contact us:</p>
     <form class="su-form" data-signup novalidate>
       <label class="sr-only" for="su-email">Email address</label>
       <input id="su-email" name="EMAIL" type="email" inputmode="email" autocomplete="email"
@@ -360,6 +360,7 @@ footer a{color:rgba(246,242,235,.82);text-decoration:none}
     </form>
     <p class="su-msg" data-msg role="status" aria-live="polite"></p>
     <p class="su-fine">We&rsquo;ll only email about availability and program news. Unsubscribe anytime.</p>
+    <p class="lead">To learn more about our program, schedule a tour, make a referral, or discuss partnership opportunities, please contact us.</p>
     </div>
   </div>
 </section>
