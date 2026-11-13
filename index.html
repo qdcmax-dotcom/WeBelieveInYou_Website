@@ -135,6 +135,11 @@ section{padding:84px 0}
 .prog-card .feats{grid-template-columns:1fr 1fr;gap:10px}
 @media (max-width:760px){.prog-card .feats{grid-template-columns:1fr}}
 .prog-card{background:#fff;border:1px solid rgba(62,24,118,.15);border-radius:14px;padding:34px;display:flex;flex-direction:column}
+.prog-card .offers{list-style:none;margin:26px 0 0;padding:24px 0 0;border-top:1px solid rgba(62,24,118,.14);display:grid;grid-template-columns:repeat(3,1fr);gap:18px 18px}
+.prog-card .offers li{display:flex;align-items:center;justify-content:center;gap:11px;font-size:1.02rem;line-height:1.38;font-weight:700;color:rgba(21,8,40,.82);min-width:0}
+.prog-card .offers .e{font-size:1.3rem;line-height:1;flex:0 0 auto}
+@media (max-width:620px){.prog-card .offers{grid-template-columns:1fr;gap:14px}.prog-card .offers li{justify-content:flex-start}}
+.prog-card .card-title{font-family:'Fraunces',serif;font-size:clamp(1.55rem,3.2vw,2.3rem);font-weight:600;color:var(--purple);line-height:1.16;text-align:center;margin:-34px -34px 26px;padding:30px 28px;border-bottom:1px solid rgba(62,24,118,.14);border-radius:14px 14px 0 0}
 .prog-card .ico{font-size:2.1rem;line-height:1;margin-bottom:12px}
 .prog-card h3{font-size:1.72rem;color:var(--purple);margin-bottom:12px}
 .prog-card .d{font-size:1.05rem;line-height:1.68;color:rgba(21,8,40,.74);margin:0 0 22px}
@@ -297,40 +302,24 @@ footer a{color:rgba(246,242,235,.82);text-decoration:none}
 <!-- ============ PROGRAMS ============ -->
 <section id="programs">
   <div class="wrap">
-    <h2 class="sec-title wide rv">Our Shared Independent Living Program</h2>
     <div class="prog-grid rv">
 
 
       <div class="prog-card" id="solo-agers">
+        <h2 class="card-title">Our Shared Independent Living Program</h2>
         <p class="d">Designed for <strong>adults aged 55 and better</strong> who want autonomy, safety, and community without relying on family support.</p>
         <ul class="feats">
-          <li><span class="e">🛏️</span><span>Your own furnished bed and storage, with access to shared common areas within and just outside of the home</span></li>
+          <li><span class="e">🛏️</span><span>Shared and private rooms available, each with your own furnished bed and storage, plus access to shared common areas within and just outside of the home</span></li>
           <li><span class="e">👥</span><span>Social activities and peer connections with housemates</span></li>
           <li><span class="e">🧹</span><span>Regular housekeeping services to maintain a hygienic and organized home</span></li>
         </ul>
+        <ul class="offers">
+          <li><span class="e">🕐</span><span>24 Hour Staff Presence</span></li>
+          <li><span class="e">📶</span><span>All Utilities, Including Wi&#8209;Fi</span></li>
+          <li><span class="e">🛍️</span><span>Close to Shopping and Transit</span></li>
+        </ul>
       </div>
 
-    </div>
-  </div>
-</section>
-
-<!-- ============ OUR OFFERINGS ============ -->
-<section class="offer">
-  <div class="wrap">
-    <h2 class="sec-title rv">Our Offerings</h2>
-    <div class="offer-row rv">
-      <div class="offer-grid">
-        <div class="offer-item"><div class="ico">🛡️</div><h3>Safe Community Environment</h3></div>
-        <div class="offer-item"><div class="ico">🕐</div><h3>24 Hour Staff Presence</h3></div>
-        <div class="offer-item"><div class="ico">📶</div><h3>All Utilities, Including Wi&#8209;Fi</h3></div>
-        <div class="offer-item"><div class="ico">🏠</div><h3>Newly Renovated Home</h3></div>
-        <div class="offer-item"><div class="ico">🅿️</div><h3>Parking Available</h3></div>
-        <div class="offer-item"><div class="ico">🛍️</div><h3>Close to Shopping and Transit</h3></div>
-      </div>
-      <div class="rate">
-        <div class="ico">🛏️</div>
-        <div class="hl">Shared and Private Rooms Available</div>
-      </div>
     </div>
   </div>
 </section>
